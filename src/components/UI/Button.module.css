@@ -1,0 +1,21 @@
+.button {
+  margin-left: 20px;
+  height: 45px;
+  cursor: pointer;
+  background-color: beige;
+  font-size: 22px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: rgba(12, 12, 70, 0.722);
+}
+
+.button:hover {
+  background-color: rgb(240, 240, 155);
+}
+
+.button:disabled {
+  cursor: default;
+  background-color: beige;
+  color: rgba(12, 12, 70, 0.214);
+}
